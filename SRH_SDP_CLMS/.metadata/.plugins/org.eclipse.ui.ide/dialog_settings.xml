@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/Users/varad/Documents/CLMS"/>
+		<item value="/Users/varad/Documents/SRH_SDP_CLMS"/>
+		<item value="/Users/varad/Documents/CLMS08"/>
+		<item value="/Users/varad/Documents/CLMS08/CLMS"/>
+		<item value="/Users/varad/Documents/JAVACLMS(FINAL)/SRH_SDP_CLMS"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+	</section>
+</section>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+
+		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/clms_db?useSSL=false&amp;useTimezone=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">Mahanagar@12</property>
+
+		<!-- <property name="hibernate.show_sql">true</property> -->
+
+		<mapping class="com.srh.clms.entities.Account" />
+		<mapping class="com.srh.clms.entities.Builder" />
+		<mapping class="com.srh.clms.entities.DetailInfo" />
+		<mapping class="com.srh.clms.entities.Project" />		
+		<mapping class="com.srh.clms.entities.Work" />
+		<mapping class="com.srh.clms.entities.Labourer" />
+		<mapping class="com.srh.clms.entities.Attendance" />
+		<mapping class="com.srh.clms.entities.Contractor" />
+		<mapping class="com.srh.clms.entities.Salary" />
+
+	</session-factory>
+</hibernate-configuration>
